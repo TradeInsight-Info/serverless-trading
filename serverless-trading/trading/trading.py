@@ -87,6 +87,12 @@ def get_signals(symbol="AAPL"):
   
 
 def trade(symbol="AAPL", quantity=1000):
+    '''
+    This function will trade the stock based on the signals
+    In this example, we used fixed quantity of 1000 shares, however, in real trading, you should calculate the quantity based on your account balance and risk management
+    '''
+    
+    
     signals = get_signals(symbol)
     # get latest signal
     latest_signal = signals.iloc[-1]
