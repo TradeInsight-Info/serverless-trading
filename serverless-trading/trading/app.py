@@ -1,5 +1,5 @@
 import json
-from .trading import trade
+from algorithm import trade
 
 # import requests
 
