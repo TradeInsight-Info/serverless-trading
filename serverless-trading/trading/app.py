@@ -1,5 +1,5 @@
 import json
-from trading.trading import trade
+from .trading import trade
 
 # import requests
 
