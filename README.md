@@ -2,6 +2,8 @@
 
 This is a project to use Alpaca-Py SDK and AWS Lambda to create a serverless trading bot.
 
+- [jupyter notebook](https://github.com/TradeInsight-Info/serverless-trading/blob/master/playground.ipynb)
+
 
 
 ## Environment Variables
